@@ -1,8 +1,11 @@
-# VS-Code_Builder for Windows
-Screenshot of workspace folder
-![Alt text](Screenshot.png?raw=true "Title")
+# VS-Code-Builder for Windows
+Screenshot of the workspace folder
+![Screenshot](Screenshot.png?raw=true "Title")
 # Requirements
-MinGW. Downloads available [here](https://osdn.net/projects/mingw/releases/)
+1) MinGW.
+
+
+Download from [here](https://osdn.net/projects/mingw/releases/)
 
 
 # Instructions
@@ -11,13 +14,13 @@ MinGW. Downloads available [here](https://osdn.net/projects/mingw/releases/)
 1) Download and install MinGW from the above link.
 
 
-2) After successful completion of installation of MinGW, navigate to `MinGW\bin` folder. Once inside, paste the builder.bat file in here.
+2) After successful installation, navigate to `MinGW\bin`. Once inside, paste the builder.bat file in here.
 
 
-**Note:** Cross check that MinGW\bin is set as path under environment variables.
+  **Note:** Cross check that MinGW\bin is set as path under environment variables.
 
 
-3) Copy the .vscode folder along with the Input.txt and Output.txt files, to the workspace folder on vs code (where your C/C++ codes are present).
+3) Copy the .vscode folder along with the Input.txt and Output.txt files, to your workspace folder (where your C/C++ codes are present).
 
 
 4) Navigate to c_cpp_properties.json under .vscode folder (the same one as above) and make necessary changes to `C:\\Software\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include\\c++`and  `compilerPath": "C:\\Software\\MinGW\\bin\\mingw32-g++.exe`.Change/modify the above locations to match your install location of MinGW.
