@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "showOutput": "never",
+    "tasks": [{
+        "label": "C++ Builder",
+        "type": "shell",
+        "command": "builder.bat",
+        "args": [
+            "${fileBasename}"
+        ],
+        "group": "build",
+        "problemMatcher": []
+    }]
+}
