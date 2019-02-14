@@ -1,5 +1,6 @@
 # VS-Code_Builder for Windows
-
+Screenshot of workspace folder
+![Alt text](Screenshot.png?raw=true "Title")
 # Requirements
 MinGW. Downloads available [here](https://osdn.net/projects/mingw/releases/)
 
