@@ -2,7 +2,11 @@
 A builder for C/C++ for vscode
 
 
-#Instructions
+# Requirements
+MinGW. Downloads available [here](https://osdn.net/projects/mingw/releases/)
+
+
+# Instructions
 
 
 1) Paste the builder.bat in any reasonable folder, and add this folder to system path.
