@@ -26,10 +26,19 @@ Download from [here](https://osdn.net/projects/mingw/releases/)
 4) Navigate to c_cpp_properties.json under .vscode folder (the same one as above) and make necessary changes to `C:\\Software\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include\\c++`and  `compilerPath": "C:\\Software\\MinGW\\bin\\mingw32-g++.exe`.Change/modify the above locations to match your install location of MinGW.
 
 
-5) On the given Input.txt file, provide your inputs.
+5) The first line of builder.bat specifies which compiler to use. In my case, I have MinGW installed.[`mingw32-g++.exe %~nx1 -o %~n1`]
 
 
-6) To build and run, use the keyboard shortcut command `ctrl+shift+b` 
+**Modifications can be made to use your default compiler.** For eg. `gcc.exe %~nx1 -o %~n1`.
 
 
-7) The output of the code corresponding to the inputs are saved in the Output.txt folder.
+6) On the given Input.txt file, provide your inputs.
+
+
+7) Finally, to build and run, use the keyboard shortcut command `ctrl+shift+b` 
+
+
+The output of the code corresponding to the inputs are saved in the Output.txt folder.
+
+
+Please fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSdPtz4s-FBBn5zCBZ8JOxdXJczhGqVymZp_mPSvOidckNHg5g/viewform) feedback form.
