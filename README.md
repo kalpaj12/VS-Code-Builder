@@ -9,7 +9,7 @@ Download from [here](https://drive.google.com/open?id=1Lq-al-sBEqnpK92zsQjY887BG
 
 
 # Requirements for Linux
-gcc (`sudo apt install gcc`)
+g++ (`sudo apt install g++`)
 
 
 # Instructions for Windows
@@ -36,7 +36,7 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 # Instructions for Linux
 
 
-1) After installing gcc, copy all the contents present inside Linux folder to your VS-Code Workspace folder.
+1) After installing g++, copy all the contents present inside Linux folder to your VS-Code Workspace folder.
 
 
 2) The inputs can be given in the Input.txt and the corresponding outputs will be displayed in Output.txt
