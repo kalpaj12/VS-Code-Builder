@@ -30,7 +30,7 @@ gcc (`sudo apt install gcc`)
 4) Finally, to build and run, use the keyboard shortcut command `ctrl+shift+b`, and select C++ builder. 
 
 
-The output of the code corresponding to the inputs are saved in the Output.txt folder.
+The output of the code corresponding to the inputs are saved in the Output.txt.
 
 
 # Instructions for Linux
