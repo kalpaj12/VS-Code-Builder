@@ -1,4 +1,4 @@
-# VS-Code-Builder for Windows and Linux
+# VS-Code-Builder for Windows, Linux and Mac
 Screenshot of the workspace folder
 ![Screenshot](Screenshot.png?raw=true "Title")
 # Requirements for Windows
