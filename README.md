@@ -53,7 +53,7 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 
 1) To install g++, install Xcode first. Xcode menu > Preferences > Downloads > choose "Command line tools" > Click "Install" button. Alternatively, run `g++` on terminal and follow instructions.
 
-2) After installing g++, copy all the contents present inside Mac folder to your VS-Code Workspace folder.
+2) After installing g++, copy **either v1 or v2 folder** (see Instructions 5 and 6 for more details) inside Mac folder to your VS-Code Workspace folder.
 
 3) Edit c_cpp_properties.json file and correct your OSX version (if necessary) under 
 
