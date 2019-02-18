@@ -63,9 +63,10 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 
 4) The inputs can be given in the Input.txt and the corresponding outputs will be displayed in Output.txt
 
-5.1) For v1: To build and run use the keyboard shortcut `Command+shift+b`
+5) For v1: To build and run use the keyboard shortcut `Command+shift+b`
 
-5.2) For v2: To build and run use the keyboard shortcut `Command+shift+b` twice (separate commands for compiling and concatentating to output file)
+6) For v2: To build and run use the keyboard shortcut `Command+shift+b` twice (separate commands for compiling and concatentating to output file)
+
 
 
 Reviews are appriciated and can be submitted [here](https://docs.google.com/forms/d/e/1FAIpQLSdPtz4s-FBBn5zCBZ8JOxdXJczhGqVymZp_mPSvOidckNHg5g/viewform).
