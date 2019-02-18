@@ -2,10 +2,7 @@
 Screenshot of the workspace folder
 ![Screenshot](Screenshot.png?raw=true "Title")
 # Requirements for Windows
-MinGW.
-
-
-Download from [here](https://drive.google.com/open?id=1Lq-al-sBEqnpK92zsQjY887BGFyGbjVn)
+MinGW. Download from [here](https://drive.google.com/open?id=1Lq-al-sBEqnpK92zsQjY887BGFyGbjVn)
 
 
 # Requirements for Linux
