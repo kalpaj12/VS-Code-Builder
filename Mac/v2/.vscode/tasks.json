@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build, input from file, output to file",
+            "type": "shell",
+            "command": "g++",
+            "options": {
+                "cwd": "${workspaceFolder}/"
+            },
+            "args": [
+                "${file}",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build, input from file, output to file",
+            "type": "shell",
+            "command": "./a.out",
+            "options": {
+                "cwd": "${workspaceFolder}/"
+            },
+            "args": [
+                "<",
+                "Input.txt",
+                ">",
+                "Output.txt",
+                "exit"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
