@@ -2,14 +2,14 @@
 Screenshot of the workspace folder
 ![Screenshot](Screenshot.png?raw=true "Title")
 # Requirements for Windows
-1) MinGW.
+MinGW.
 
 
 Download from [here](https://drive.google.com/open?id=1Lq-al-sBEqnpK92zsQjY887BGFyGbjVn)
 
 
 # Requirements for Linux
-1) gcc (`sudo apt install gcc`)
+gcc (`sudo apt install gcc`)
 
 
 # Instructions for Windows
