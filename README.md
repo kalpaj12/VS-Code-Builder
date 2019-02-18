@@ -12,7 +12,7 @@ Download from [here](https://drive.google.com/open?id=1Lq-al-sBEqnpK92zsQjY887BG
 g++ (`sudo apt install g++`)
 
 # Requirements for Mac
-g++ (`g++` on Terminal) 
+g++ (`g++`) 
 
 
 # Instructions for Windows
