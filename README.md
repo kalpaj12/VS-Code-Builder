@@ -46,7 +46,6 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 
 
 3) To build and run use the keyboard shortcut `ctrl+shift+b`
-                "-o", "<" ,"Input.txt", ">", "Output.txt"
 
 
 # Instructions for Mac
