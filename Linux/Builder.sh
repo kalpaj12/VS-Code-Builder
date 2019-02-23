@@ -1,4 +1,7 @@
 g++ $1
-./a.out < Input.txt > Output.txt
-rm a.out
+if [ -f "./a.out" ]
+then
+   	./a.out < Input.txt > Output.txt
+	rm a.out
+fi
 exit

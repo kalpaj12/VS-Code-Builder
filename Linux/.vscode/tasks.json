@@ -7,7 +7,7 @@
             "type": "shell",
             "command": "sh",
             "args": [
-                "Builder.sh","${fileBasename}"
+                "Builder.sh","${fileBasename}","&>Output.txt"
             ],
             "group": {
                 "kind": "build",
