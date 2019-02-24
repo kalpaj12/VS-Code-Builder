@@ -1,36 +1,34 @@
 {
     "version": "2.0.1",
     "showOutput": "never",
-    "tasks": [
-        {
-            "label": "C++ Builder",
-            "type": "shell",
-            "linux": {
-                "command": "sh",
-                "args": [
-                    ".vscode/Builder.sh",
-                    "${relativeFile}",
-                    "&>Output.txt"
-                ],
-            },
-            "osx": {
-                "command": "sh",
-                "args": [
-                    ".vscode/Builder.sh",
-                    "${relativeFile}",
-                    "&>Output.txt"
-                ],
-            },
-            "windows": {
-                "command": ".vscode/builder.bat",
-                "args": [
-                    "${relativeFile}"
-                ],
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+    "tasks": [{
+        "label": "C++ Builder",
+        "type": "shell",
+        "linux": {
+            "command": "sh",
+            "args": [
+                ".vscode/Builder.sh",
+                "${relativeFile}",
+                "&>Output.txt"
+            ],
+        },
+        "osx": {
+            "command": "sh",
+            "args": [
+                ".vscode/Builder.sh",
+                "${relativeFile}",
+                "&>Output.txt"
+            ],
+        },
+        "windows": {
+            "command": ".vscode/builder.bat",
+            "args": [
+                "${relativeFile}"
+            ],
+        },
+        "group": {
+            "kind": "build",
+            "isDefault": true
         }
-    ]
+    }]
 }
