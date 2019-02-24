@@ -18,16 +18,16 @@ g++ (`g++`)
 1) Download MinGW.zip from the above link and extract it to your local disk C:
 
 
-  **Note:** Set MinGW\bin as path under environment variables.
+  **Note:** Set C:\MinGW\bin as path under environment variables.
 
 
-2) Under Windows folder of this repo, copy the .vscode folder along with the Input.txt and Output.txt files, to the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
+2) Copy the .vscode folder along with the Input.txt and Output.txt files from this repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
 
 
 3) On the given Input.txt file, provide your inputs.
 
 
-4) Finally, to build and run, use the keyboard shortcut command `ctrl+shift+b`, and select C++ builder. 
+4) To build and run, use the keyboard shortcut command `ctrl+shift+b`, and select C++ builder. 
 
 
 The output of the code corresponding to the inputs are saved in the Output.txt.
@@ -36,13 +36,16 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 # Instructions for Linux
 
 
-1) After installing g++, copy all the contents present inside Linux folder to your VS-Code Workspace folder.
+1) After installing g++, copy .vscode, Input.txt and Output.txt from the repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
 
 
-2) The inputs can be given in the Input.txt and the corresponding outputs will be displayed in Output.txt
+2) On the given Input.txt file, provide your inputs.
 
 
-3) To build and run use the keyboard shortcut `ctrl+shift+b`
+3) To build and run, use the keyboard shortcut command `ctrl+shift+b`. 
+
+
+The output of the code corresponding to the inputs are saved in the Output.txt.
 
 
 # Instructions for Mac
@@ -51,10 +54,7 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 1) To install g++, install Xcode first. Xcode menu > Preferences > Downloads > choose "Command line tools" > Click "Install" button. Alternatively, run `g++` on terminal and follow instructions.
 
 
-2) After installing g++, copy all the contents inside Mac folder to your VS-Code Workspace folder.
-
-
-3) Edit c_cpp_properties.json file and correct your OSX version (if necessary) under 
+2) Edit c_cpp_properties.json file (under .vscode) and correct your OSX version (if necessary) under 
 
 
 "macFrameworkPath": [
@@ -62,10 +62,13 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
             ],
 
 
-4) The inputs can be given in the Input.txt and the corresponding outputs will be displayed in Output.txt
+3) On the given Input.txt file, provide your inputs.
 
 
-5) To build and run use the keyboard shortcut `Shift+Command+b`
+4) To build and run, use the keyboard shortcut command `shift+command+b`, and select C++ builder. 
+
+
+The output of the code corresponding to the inputs are saved in the Output.txt.
 
 
 Reviews are appriciated and can be submitted [here](https://docs.google.com/forms/d/e/1FAIpQLSdPtz4s-FBBn5zCBZ8JOxdXJczhGqVymZp_mPSvOidckNHg5g/viewform).

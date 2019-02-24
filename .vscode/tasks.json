@@ -1,0 +1,36 @@
+{
+    "version": "2.0.1",
+    "showOutput": "never",
+    "tasks": [
+        {
+            "label": "C++ Builder",
+            "type": "shell",
+            "linux": {
+                "command": "sh",
+                "args": [
+                    ".vscode/Builder.sh",
+                    "${relativeFile}",
+                    "&>Output.txt"
+                ],
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    ".vscode/Builder.sh",
+                    "${relativeFile}",
+                    "&>Output.txt"
+                ],
+            },
+            "windows": {
+                "command": "builder.bat",
+                "args": [
+                    "${fileBasename}"
+                ],
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
