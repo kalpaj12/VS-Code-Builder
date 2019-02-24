@@ -1,12 +1,12 @@
 {
-    "configurations": [{
+    "configurations": [
+        {
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include\\c++",
                 "C:\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include",
-                "C:\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include\\ssp",
-
+                "C:\\MinGW\\lib\\gcc\\mingw32\\5.1.0\\include\\ssp"
             ],
             "defines": [
                 "_DEBUG",
