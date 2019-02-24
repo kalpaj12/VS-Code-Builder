@@ -22,9 +22,9 @@
                 ],
             },
             "windows": {
-                "command": "builder.bat",
+                "command": ".vscode/builder.bat",
                 "args": [
-                    "${fileBasename}"
+                    "${relativeFile}"
                 ],
             },
             "group": {
