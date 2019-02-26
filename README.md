@@ -21,13 +21,16 @@ g++ (`g++`)
   **Note:** Set C:\MinGW\bin as path under environment variables.
 
 
-2) Copy the .vscode folder along with the Input.txt and Output.txt files from this repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
+2) Copy .vscode from this repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
 
 
-3) On the given Input.txt file, provide your inputs.
+3) Open any C/C++ file, hit `ctrl+shift+b` and select Create Files. This should create 2 files(Input.txt and Output.txt) in the root of the workspace folder. **Note that this is a one time step.**
 
 
-4) To build and run, use the keyboard shortcut command `ctrl+shift+b`, and select C++ builder. 
+4) In the Input.txt file, provide your inputs.
+
+
+5) To build and run, use the keyboard shortcut command `ctrl+shift+b` and select C++ builder. 
 
 
 The output of the code corresponding to the inputs are saved in the Output.txt.
@@ -36,13 +39,16 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
 # Instructions for Linux
 
 
-1) After installing g++, copy .vscode, Input.txt and Output.txt from the repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
+1) After installing g++, copy .vscode from this repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
 
 
-2) On the given Input.txt file, provide your inputs.
+2) Open any C/C++ file, hit `ctrl+shift+b` and select Create Files. This should create 2 files(Input.txt and Output.txt) in the root of the workspace folder. **Note that this is a one time step.**
 
 
-3) To build and run, use the keyboard shortcut command `ctrl+shift+b`. 
+3) In the Input.txt file, provide your inputs.
+
+
+4) To build and run, use the keyboard shortcut command `ctrl+shift+b` and select C++ builder.
 
 
 The output of the code corresponding to the inputs are saved in the Output.txt.
@@ -62,10 +68,16 @@ The output of the code corresponding to the inputs are saved in the Output.txt.
             ],
 
 
-3) On the given Input.txt file, provide your inputs.
+3) Copy .vscode from this repo and paste it inside the folder where your C/C++ codes are present. Open this folder as workspace in vscode.
 
 
-4) To build and run, use the keyboard shortcut command `shift+command+b`, and select C++ builder. 
+4) Open any C/C++ file, hit `ctrl+shift+b` and select Create Files. This should create 2 files(Input.txt and Output.txt) in the root of the workspace folder. **Note that this is a one time step.**
+
+
+5) In the Input.txt file, provide your inputs.
+
+
+6) To build and run, use the keyboard shortcut command `shift+command+b` and select C++ builder.
 
 
 The output of the code corresponding to the inputs are saved in the Output.txt.

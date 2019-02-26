@@ -1,4 +1,4 @@
-g++ $1
+g++ $1 -lm
 if [ -f "./a.out" ]
 then
    	./a.out < Input.txt > Output.txt

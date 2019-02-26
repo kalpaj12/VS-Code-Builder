@@ -1,5 +1,5 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "showOutput": "never",
     "tasks": [
         {
@@ -11,7 +11,7 @@
                     ".vscode/Builder.sh",
                     "${relativeFile}",
                     "&>Output.txt"
-                ],
+                ]
             },
             "osx": {
                 "command": "sh",
@@ -19,18 +19,43 @@
                     ".vscode/Builder.sh",
                     "${relativeFile}",
                     "&>Output.txt"
-                ],
+                ]
             },
             "windows": {
-                "command": ".vscode/builder.bat",
+                "command": ".vscode/Builder.bat",
                 "args": [
                     "${relativeFile}"
-                ],
+                ]
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Create Files",
+            "type": "shell",
+            "linux": {
+                "command": "sh",
+                "args": [
+                    ".vscode/files.sh"
+                ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    ".vscode/files.sh"
+                ]
+            },
+            "windows": {
+                "command": ".vscode/files.bat"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }
